@@ -87,9 +87,9 @@
 
         func {
             bindings = <
-&none           &kp F12  &kp F7  &kp F8            &kp F9        &none         &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG
-&none           &kp F11  &kp F4  &kp F5            &kp F6        &none         &rgb_ug RGB_BRI  &kp F7           &kp F8           &kp F9           &kp RGUI         &none
-&kp LEFT_SHIFT  &kp F10  &kp F1  &kp F2            &kp F3        &none         &rgb_ug RGB_BRD  &kp F11          &kp F10          &kp F12          &none            &sl 4
+&none           &kp F12  &kp F7  &kp F8            &kp F9        &none         &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                       &rgb_ug RGB_TOG
+&none           &kp F11  &kp F4  &kp F5            &kp F6        &none         &rgb_ug RGB_BRI  &kp F7           &kp F8           &kp F9           &kp RGUI                              &none
+&kp LEFT_SHIFT  &kp F10  &kp F1  &kp F2            &kp F3        &none         &rgb_ug RGB_BRD  &kp F11          &kp F10          &kp F12          &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &sl 4
                                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &none            &none            &none
             >;
         };
