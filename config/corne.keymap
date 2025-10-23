@@ -58,6 +58,18 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <40 41>;
         };
+
+        arrrow-on {
+            bindings = <&tog 7>;
+            key-positions = <14 15 16>;
+            layers = <0>;
+        };
+
+        arrow-off {
+            bindings = <&tog 0>;
+            key-positions = <14 15 16>;
+            layers = <7>;
+        };
     };
 
     macros {
@@ -132,6 +144,15 @@
 &none  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS         &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
 &none  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE         &none  &none      &none      &none     &none     &none
                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE   &none  &none      &none
+            >;
+        };
+
+        arrow {
+            bindings = <
+&kp TAB         &trans  &trans          &kp UP_ARROW      &trans           &trans         &trans           &trans     &trans     &trans  &trans  &kp BACKSPACE
+&kp ESCAPE      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans         &trans           &trans     &trans     &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans          &trans            &trans           &trans         &trans           &trans     &trans     &trans  &trans  &trans
+                                        &kp LEFT_CONTROL  &kp LEFT_ALT     &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp SPACE  &kp ENTER
             >;
         };
     };
