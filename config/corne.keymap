@@ -94,17 +94,17 @@
             bindings = <
 &kp GRAVE       &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4      &kp N5            &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &kp BACKSPACE
 &kp TILDE       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)   &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &none
-&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BSLH          &kp PIPE          &kp MINUS         &kp EQUAL         &kp UNDER         &kp PLUS          &none
+&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BSLH          &kp PIPE          &kp MINUS         &kp EQUAL         &kp UNDER         &kp PLUS          &kp DOT
                                                      &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_GUI      &kp RIGHT_SHIFT   &none             &none
             >;
         };
 
         func {
             bindings = <
-&none           &kp F12  &kp F7  &kp F8            &kp F9        &none         &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                       &rgb_ug RGB_TOG
-&none           &kp F11  &kp F4  &kp F5            &kp F6        &none         &rgb_ug RGB_BRI  &kp F7           &kp F8           &kp F9           &kp RGUI                              &none
-&kp LEFT_SHIFT  &kp F10  &kp F1  &kp F2            &kp F3        &none         &rgb_ug RGB_BRD  &kp F11          &kp F10          &kp F12          &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &sl 4
-                                 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &none            &none            &none
+&none           &kp F12  &kp F7  &kp F8            &kp F9        &none         &rgb_ug RGB_HUD  &rgb_ug RGB_HUI    &rgb_ug RGB_SAD   &rgb_ug RGB_SAI  &rgb_ug RGB_EFF       &rgb_ug RGB_TOG
+&none           &kp F11  &kp F4  &kp F5            &kp F6        &none         &rgb_ug RGB_BRI  &kp K_PREV         &kp K_PLAY_PAUSE  &kp K_NEXT       &kp C_BRIGHTNESS_INC  &none
+&kp LEFT_SHIFT  &kp F10  &kp F1  &kp F2            &kp F3        &none         &rgb_ug RGB_BRD  &kp K_VOLUME_DOWN  &kp K_MUTE        &kp K_VOL_UP     &kp C_BRIGHTNESS_DEC  &sl 4
+                                 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &none            &none              &none
             >;
         };
 
