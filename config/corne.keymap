@@ -58,18 +58,6 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <40 41>;
         };
-
-        arrrow-on {
-            bindings = <&tog 7>;
-            key-positions = <14 15 16>;
-            layers = <0>;
-        };
-
-        arrow-off {
-            bindings = <&tog 0>;
-            key-positions = <14 15 16>;
-            layers = <7>;
-        };
     };
 
     macros {
